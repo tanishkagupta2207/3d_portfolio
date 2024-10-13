@@ -2,7 +2,6 @@
 /* eslint-disable react/no-unknown-property */
 import React from 'react';
 import Bookshelf from './Bookshelf';
-import BeanBag from './BeanBag';
 import Certificate from './Certificate';
 import Chair from './Chair';
 import Clock from './Clock';
@@ -60,8 +59,6 @@ function Room() {
       <Bookshelf scale={3} position={[11,-0.8,-5]} rotation={[0,-Math.PI/2,0]} />
       <Shelf scale={3} position={[-11.6,-0.8,-14]} rotation={[0,Math.PI/2,0]}/>
       <Degree scale={250} position={[-12.2,6.83,-11.5]} rotation={[0,Math.PI/2,0]}/>
-      <BeanBag scale={4} position={[-5,-0.9,-15]} rotation={[0,Math.PI/4,0]}/>
-      <BeanBag scale={4} position={[2.5,-0.9,-15]} rotation={[0,-Math.PI/4,0]}/>
       <Plant scale={6} position={[9.8,2.25,-12]}/>
       <Certificate scale={0.1} position={[-12.4,10,-8]} rotation={[0,Math.PI/2,0]} />
       <PhotoFrame scale={2.5} position={[-12.3,10,0]}/>
